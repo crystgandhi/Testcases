@@ -1,3 +1,4 @@
 WebDriver driver=new ChromeDriver();
 driver.get("http://google.com");
 driver.manage.window.maximize();
+driver.findElement(By.name("q)).sendKeys("Hello");
